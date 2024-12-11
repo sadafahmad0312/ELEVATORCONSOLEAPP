@@ -1,6 +1,6 @@
 ### **Elevator Simulation Application**
 
-# OverView
+# Overview
 This Elevator Simulation Application is a console-based program that simulates the behavior of an elevator system in a building. It includes functionality for requesting elevators, dispatching the nearest available elevator, handling passenger limits, 
 
 The application is designed with a modular architecture, making it maintainable and extensible. It incorporates clean coding principles and unit tests to ensure reliability and scalability.
@@ -33,27 +33,27 @@ The application is designed with a modular architecture, making it maintainable 
 
 13. Prevent elevators from moving if already at the requested floor.
 
-# Error Handling:
+### Error Handling:
 
 Gracefully handle invalid requests (e.g., floor out of range, no available elevators).
 
-# Test Coverage:
+### Test Coverage:
 
 Comprehensive unit tests to validate core functionalities such as requesting the nearest elevator, passenger management, and error scenarios.
 
-# Prerequisites
+### Prerequisites
 
 Programming Language: C#
 
 Framework: .NET Core
 
-# Dependencies:
+### Dependencies:
 
 Moq (for unit testing)
 
 xUnit (for testing framework)
 
-## Setup Instructions
+### Setup Instructions
 
 1. Clone the Repository:
 
@@ -72,7 +72,7 @@ dotnet run
 
 dotnet test
 
-## Usage
+### Usage
 
 Console Commands
 
@@ -88,7 +88,7 @@ Exit Application:
 
 Enter 2 to exit the program.
 
-## Project Structure
+### Project Structure
 Domain: Contains the core business logic and interfaces (e.g., IBuilding, IElevator, IPassengerElevator).
 
 Infrastructure: Implements repository classes and interaction logic.
