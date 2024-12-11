@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>ELEVATORCONSOLEAPP.Presentation.UI.Program</StartupObject>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Presentation\**\*.cs" />
+    <Compile Include="..\Domain\**\*.cs" />
+    <Compile Include="..\Infrastructure\**\*.cs" />
+   </ItemGroup>
+
+</Project>

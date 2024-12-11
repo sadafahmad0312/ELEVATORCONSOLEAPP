@@ -1,0 +1,14 @@
+C:\Users\ahmad\ElevatorConsoleApp\ElevatorApplication\obj\Debug\net8.0\ElevatorApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmad\ElevatorConsoleApp\ElevatorApplication\obj\Debug\net8.0\ElevatorApplication.AssemblyInfoInputs.cache
+C:\Users\ahmad\ElevatorConsoleApp\ElevatorApplication\obj\Debug\net8.0\ElevatorApplication.AssemblyInfo.cs
+C:\Users\ahmad\ElevatorConsoleApp\ElevatorApplication\obj\Debug\net8.0\ElevatorApplication.csproj.CoreCompileInputs.cache
+C:\Users\ahmad\ElevatorConsoleApp\ElevatorApplication\bin\Debug\net8.0\ElevatorApplication.exe
+C:\Users\ahmad\ElevatorConsoleApp\ElevatorApplication\bin\Debug\net8.0\ElevatorApplication.deps.json
+C:\Users\ahmad\ElevatorConsoleApp\ElevatorApplication\bin\Debug\net8.0\ElevatorApplication.runtimeconfig.json
+C:\Users\ahmad\ElevatorConsoleApp\ElevatorApplication\bin\Debug\net8.0\ElevatorApplication.dll
+C:\Users\ahmad\ElevatorConsoleApp\ElevatorApplication\bin\Debug\net8.0\ElevatorApplication.pdb
+C:\Users\ahmad\ElevatorConsoleApp\ElevatorApplication\obj\Debug\net8.0\ElevatorApplication.dll
+C:\Users\ahmad\ElevatorConsoleApp\ElevatorApplication\obj\Debug\net8.0\refint\ElevatorApplication.dll
+C:\Users\ahmad\ElevatorConsoleApp\ElevatorApplication\obj\Debug\net8.0\ElevatorApplication.pdb
+C:\Users\ahmad\ElevatorConsoleApp\ElevatorApplication\obj\Debug\net8.0\ElevatorApplication.genruntimeconfig.cache
+C:\Users\ahmad\ElevatorConsoleApp\ElevatorApplication\obj\Debug\net8.0\ref\ElevatorApplication.dll
