@@ -57,20 +57,23 @@ xUnit (for testing framework)
 
 1. Clone the Repository:
 
-git clone https://github.com/<your-username>/<repository-name>.git
-cd <repository-name>
+  git clone https://github.com/sadafahmad0312/ELEVATORCONSOLEAPP.git
+  cd ELEVATORCONSOLEAPP
 
 2. Build the Application:
 
-dotnet build
+   cd ElevatorApplication 
+   dotnet build
 
 3. Run the Application:
-
-dotnet run
+    
+    cd ElevatorApplication
+    dotnet run
 
 4. Run Unit Tests:
 
-dotnet test
+    cd ElevatorApp.Tests
+    dotnet test
 
 ### Usage
 

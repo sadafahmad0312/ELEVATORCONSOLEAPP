@@ -13,6 +13,20 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+# Ignore specific test artifacts
+TestResults/
+*.AssemblyInfo.cs
+*.AssemblyReference.cache
+*.SourceRootsMapping_*
+*.ref/
+*.refint/
+
+# Ignore test coverage files (if using Coverlet or similar tools)
+*.pdb
+*.exe
+*.dll
+*.cache
+*.txt
 # Mono auto generated files
 mono_crash.*
 

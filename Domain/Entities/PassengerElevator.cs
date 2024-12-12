@@ -66,7 +66,7 @@ namespace ELEVATORCONSOLEAPP.Domain.Entities{
              ElevatorState = targetFloor> CurrentFloor? ElevatorState.MovingUp: ElevatorState.MovingDown;
              
  
-             Console.WriteLine($"Elevator with {Id} starting at {CurrentFloor} and Heading {ElevatorState}");
+             Console.WriteLine($"Elevator with {Id} starting at {CurrentFloor} and {ElevatorState}");
             
              
              await Task.Delay(3000);// Simulating time taken to move the elevator

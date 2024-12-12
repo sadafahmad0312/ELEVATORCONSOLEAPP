@@ -13,10 +13,6 @@ public class Building : IBuilding
 
     public  Building(string name, int numberOfElevators, int numberOfFloors)
     {
-
-        // if(string.IsNullOrWhiteSpace(BuildingName)) throw new ArgumentException("Building Name Cannot be Empty");
-        // if(NumberOfFloors<=0) throw new ArgumentException("Number of floors must be grater than zero");
-        // if(NumberOfElevators<=0) throw new ArgumentException("Number of elevators must be greater than Zero");
         
         BuildingName = name;
         NumberOfElevators= numberOfElevators;
@@ -25,7 +21,7 @@ public class Building : IBuilding
         //Initialize Elevators
         Elevators = new List<IPassengerElevator>();
         for(int i=0; i<=NumberOfElevators; i++){
-            Elevators.Add(new PassengerElevator(i, 10));
+            Elevators.Add(new PassengerElevator(i+1, 10));
         }
     }
 }

@@ -120,3 +120,4 @@ C:\Users\ahmad\ElevatorConsoleApp\ElevatorApp.Tests\obj\Debug\net8.0\refint\Elev
 C:\Users\ahmad\ElevatorConsoleApp\ElevatorApp.Tests\obj\Debug\net8.0\ElevatorApp.Tests.pdb
 C:\Users\ahmad\ElevatorConsoleApp\ElevatorApp.Tests\obj\Debug\net8.0\ElevatorApp.Tests.genruntimeconfig.cache
 C:\Users\ahmad\ElevatorConsoleApp\ElevatorApp.Tests\obj\Debug\net8.0\ref\ElevatorApp.Tests.dll
+C:\Users\ahmad\ElevatorConsoleApp\ElevatorApp.Tests\obj\Debug\net8.0\ElevatorApp.Tests.sourcelink.json

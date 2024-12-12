@@ -15,7 +15,6 @@ public class ElevatorControlUI{
 
     Console.Clear();
     Console.WriteLine("Elevator System: Enter a command");
-    Console.WriteLine("1.Choose from the building");
     Console.WriteLine("1. Request Elevator");
     Console.WriteLine("2. Exit");
 
@@ -26,9 +25,9 @@ public class ElevatorControlUI{
         case "1": 
         
          Console.Write("Enter Target Floor: ");
-         int targetFloor=int.Parse(Console.ReadLine());
+        int.TryParse(Console.ReadLine(), out int targetFloor);
          Console.Write("Enter Number Of passengers");
-         int passengers=int.Parse(Console.ReadLine());
+         int.TryParse(Console.ReadLine(), out int passengers);
 
          _userControl.RequestElevator(targetFloor, passengers);
          break;

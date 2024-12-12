@@ -21,7 +21,9 @@ public class ElevatorRepository:IElevatorDispatcher{
             try{
 
             if(targetFloor<0||targetFloor>+_building.NumberOfFloors) throw new ArgumentOutOfRangeException(nameof(targetFloor), "Target Floor is out of range");
-              return _building.Elevators.OrderBy(e => Math.Abs(e.CurrentFloor - targetFloor)).FirstOrDefault();
+              var nearestElevator= _building.Elevators.OrderBy(e => Math.Abs(e.CurrentFloor - targetFloor)).FirstOrDefault();
+              if(nearestElevator==null) throw new InvalidOperationException("No elevators available");
+              return nearestElevator;
             }
             catch(Exception ex){
 
